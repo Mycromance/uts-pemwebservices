@@ -5,4 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', fn () => redirect()->route('biodata.index'));
 
-Route::resource('biodata', BiodataController::class)->except('show');
+Route::resource('biodata', BiodataController::class)
+    ->except('show')
+    ->parameters(['biodata' => 'biodata']);
