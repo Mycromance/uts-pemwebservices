@@ -13,8 +13,8 @@
         <ul class="navbar-nav flex-row gap-3">
             <li class="nav-item"><a class="nav-link active" href="{{ route('biodata.index') }}">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">DEVIN_ZHARFAN_FAZARI</a></li>
-            <li class="nav-item"><a class="nav-link disabled" href="#">24010110172</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">LALU RAFI ANAYA MURADI</a></li>
+            <li class="nav-item"><a class="nav-link disabled" href="#">24010110162</a></li>
         </ul>
     </div>
 </nav>
